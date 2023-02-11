@@ -1,0 +1,9 @@
+/*font-family: 'Iceland', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Space Mono', monospace;*/
+body {
+  background-color: red;
+}
+h1 {
+  font-family: "Iceland", cursive;
+}
