@@ -1,9 +1,68 @@
 /*font-family: 'Iceland', cursive;
 font-family: 'Inter', sans-serif;
 font-family: 'Space Mono', monospace;*/
-body {
-  background-color: red;
+:root {
+  --color-primary: #131313;
+  --color-secondary: #f5eee6;
+  --color-accent: rgb(47, 46, 65);
+  --font-inter: "Inter", sans-serif;
+  --font-space-mono: "Space Mono", monospace;
 }
-h1 {
+body {
+  background-color: var(--color-primary);
+  overflow-x: hidden;
+}
+h1,
+h2,
+h2,
+h4,
+h5,
+h6,
+p {
+  color: var(--color-secondary);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-space-mono);
+}
+.hr-top {
+  color: var(--color-secondary);
+  position: fixed;
+  width: 738.02px;
+  height: 0px;
+  top: 70px;
+  border: 3px solid;
+  opacity: 1;
+}
+.hr-bottom {
+  color: var(--color-secondary);
+  position: absolute;
+  width: 738.02px;
+  height: 0px;
+  top: 650px;
+  left: 782px;
+  border: 3px solid;
+  opacity: 1;
+}
+.hero {
+  background: linear-gradient(
+    109.6deg,
+    var(--color-primary) 11.2%,
+    var(--color-accent) 51.2%,
+    var(--color-primary) 98.6%
+  );
+  text-align: center;
+  display: block;
+  padding: 280px 0;
+}
+.hero h1 {
   font-family: "Iceland", cursive;
+  font-size: 96px;
+}
+.hero h2 {
+  font-size: 28px;
+  font-weight: bold;
 }
