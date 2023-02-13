@@ -14,7 +14,7 @@ body {
 }
 h1,
 h2,
-h2,
+h3,
 h4,
 h5,
 h6,
@@ -28,7 +28,12 @@ h5,
 h6 {
   font-family: var(--font-space-mono);
 }
-
+h3 {
+  font-size: 54px;
+}
+p {
+  font-size: 25px;
+}
 /*Navbar*/
 .navbar-costum {
   background-color: var(--color-primary);
@@ -98,3 +103,5 @@ h2 {
     font-size: 18px;
   }
 }
+
+/*About page*/
