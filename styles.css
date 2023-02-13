@@ -34,6 +34,10 @@ h3 {
 p {
   font-size: 25px;
 }
+::selection {
+  color: var(--color-primary);
+  background: var(--color-secondary);
+}
 /*Navbar*/
 .navbar-costum {
   background-color: var(--color-primary);
