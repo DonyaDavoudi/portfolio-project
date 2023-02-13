@@ -33,7 +33,9 @@ h3 {
 }
 p {
   font-size: 25px;
+  font-family: "Inter", sans-serif;
 }
+
 ::selection {
   color: var(--color-primary);
   background: var(--color-secondary);
@@ -99,13 +101,41 @@ h2 {
   font-weight: bold;
 }
 @media (max-width: 650px) {
-  .hero h1 {
+  h1 {
     font-size: 70px;
   }
-  .hero,
   h2 {
     font-size: 18px;
   }
+  h3 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 22px;
+  }
 }
-
-/*About page*/
+/*Skills page*/
+i {
+  color: var(--color-secondary);
+  font-size: 80px;
+}
+#skills {
+  padding: 150px 0;
+}
+.skills-title {
+  text-align: center;
+  margin: auto;
+}
+.skill-item {
+  border: none;
+  border-radius: 10px;
+}
+.skill-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+/*Certificates page*/
