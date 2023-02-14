@@ -120,7 +120,7 @@ i {
   font-size: 80px;
 }
 #skills {
-  padding: 150px 0;
+  padding: 155px 0;
 }
 .skills-title {
   text-align: center;
@@ -139,3 +139,20 @@ i {
   border-radius: 10px;
 }
 /*Certificates page*/
+#certificates {
+  padding: 150px 0;
+}
+.certificates-title {
+  text-align: center;
+  margin: auto;
+}
+.certificates-img {
+  max-width: 60%;
+  display: flex;
+  margin: auto;
+  border-radius: 25px !important;
+}
+.certificates-img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
