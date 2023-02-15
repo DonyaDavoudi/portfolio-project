@@ -88,7 +88,7 @@ p {
   );
   text-align: center;
   display: block;
-  padding: 350px 0;
+  padding: 300px 0;
 }
 .hero,
 h1 {
@@ -120,7 +120,7 @@ i {
   font-size: 80px;
 }
 #skills {
-  padding: 155px 0;
+  padding: 160px 0;
 }
 .skills-title {
   text-align: center;
@@ -140,7 +140,7 @@ i {
 }
 /*Certificates page*/
 #certificates {
-  padding: 150px 0;
+  padding: 145px 0;
 }
 .certificates-title {
   text-align: center;
@@ -155,4 +155,16 @@ i {
 .certificates-img:hover {
   opacity: 0.5;
   cursor: pointer;
+}
+/*projects*/
+#projects {
+  padding: 150px;
+}
+button {
+  font-size: 25px;
+}
+button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border: 5px solid var(--color-secondary);
 }
