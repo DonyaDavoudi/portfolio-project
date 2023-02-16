@@ -30,6 +30,7 @@ h6 {
 }
 h3 {
   font-size: 54px;
+  font-weight: bold;
 }
 p {
   font-size: 25px;
@@ -158,13 +159,20 @@ i {
 }
 /*projects*/
 #projects {
-  padding: 150px;
+  padding: 150px 0;
 }
 button {
   font-size: 25px;
+  border: 5px solid var(--color-secondary);
 }
 button:hover {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   border: 5px solid var(--color-secondary);
+}
+@media (max-width: 576px) {
+  #projects {
+    padding: 0;
+    margin: 50px;
+  }
 }
