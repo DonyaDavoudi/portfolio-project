@@ -176,3 +176,45 @@ button:hover {
     margin: 50px;
   }
 }
+/*Contact*/
+#contact {
+  padding: 150px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+
+a,
+.email-link,
+.linkedin-link,
+.github-link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: var(--color-secondary);
+  font-size: 30px;
+  text-align: start;
+}
+.email-link:hover,
+.linkedin-link:hover,
+.github-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  #contact {
+    padding: 0;
+    margin-top: 200px;
+  }
+  a,
+  .email-link,
+  .linkedin-link,
+  .github-link {
+    font-size: 20px;
+    padding-top: 0 !important;
+  }
+  .envelope,
+  .linkedin-logo,
+  .github-logo {
+    font-size: 30px;
+  }
+}
